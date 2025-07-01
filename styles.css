@@ -17,7 +17,7 @@ body {
 
 /* ===== ESTILO PARA O CABEÇALHO (SECTION .header) ===== */
 .header {
-    background-color: #38ff11;     /* Cor de fundo do cabeçalho (rosa claro para tema de bebê, pode mudar) */
+    background: linear-gradient(135deg, #dc86ed, #2bafef, #22def5, #0aee83);     /* Cor de fundo do cabeçalho */
     text-align: center;            /* Centraliza o texto */
     color: #000000;                   /* Cor do texto */
     padding: 40px 20px;            /* Espaçamento interno */
@@ -29,7 +29,7 @@ body {
 
 /* ===== SEÇÕES GERAIS ===== */
 section {
-    background-color: #69696980;     /* Fundo branco para cada seção */
+    background: linear-gradient(135deg, #000000, #09ff00, #000, #09ff00);    /* Fundo branco para cada seção */
     border: 1px solid #ddd;        /* Borda leve */
     border-radius: 10px;           /* Cantos arredondados */
     margin-top: 20px;              /* Espaço entre seções */
