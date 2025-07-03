@@ -29,7 +29,7 @@ body {
 
 /* ===== SEÇÕES GERAIS ===== */
 section {
-    background: linear-gradient(135deg, #000000, #09ff00, #000, #09ff00);    /* Fundo branco para cada seção */
+    background: #292929;    /* Fundo branco para cada seção */
     border: 1px solid #ddd;        /* Borda leve */
     border-radius: 10px;           /* Cantos arredondados */
     margin-top: 20px;              /* Espaço entre seções */
@@ -43,16 +43,27 @@ section:hover {
     box-shadow: 0 6px 12px rgba(0, 17, 255, 0.418); /* Sombra ao hover */
 }
 
-/* ===== TÍTULOS DAS SEÇÕES ===== */
-h2 {
-    color: #0948f7;                   /* Cor dos subtítulos */
+form {
+    color: #72c7ff;                   /* Cor dos subtítulos */
     font-size: 1.4em;              /* Tamanho do texto */
     margin-bottom: 10px;          /* Espaço abaixo do título */
 }
 
+label {
+    cursor: pointer;
+    display: line;
+    margin-bottom: 10px;
+}
+/* ===== TÍTULOS DAS SEÇÕES ===== */
+h2 {
+    color: #0948f7;                   /* Cor dos subtítulos */
+    font-size: 1.4em;              /* Tamanho do texto */
+    margin-bottom: 0px;          /* Espaço abaixo do título */
+}
+
 /* ===== IMAGENS (QUANDO INSERIDAS) ===== */
 img {
-    max-width: 100%;              /* Imagem nunca ultrapassa o tamanho do contêiner */
+    max-width: 20px;              /* Imagem nunca ultrapassa o tamanho do contêiner */
     height: auto;                 /* Mantém proporção da imagem */
     border-radius: 12px;          /* Cantos arredondados nas imagens */
     margin-top: 10px;
